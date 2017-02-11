@@ -65,6 +65,7 @@ SRCSL =	libft/ft_putchar.c \
 		libft/ft_putstr_fd.c \
 		libft/ft_putendl_fd.c \
 		libft/ft_putnbr_fd.c \
+		libft/ft_itoa_base.c
 
 RMOBJ = ft_putchar.o \
 		ft_putstr.o \
@@ -118,6 +119,7 @@ RMOBJ = ft_putchar.o \
 		ft_putstr_fd.o \
 		ft_putendl_fd.o \
 		ft_putnbr_fd.o \
+		ft_itoa_base.o
 
 OBJL1 =			libft/ft_putchar.o \
 				libft/ft_putstr.o \
@@ -171,6 +173,7 @@ OBJL1 =			libft/ft_putchar.o \
 				libft/ft_putstr_fd.o \
 				libft/ft_putendl_fd.o \
 				libft/ft_putnbr_fd.o \
+				libft/ft_itoa_base.o
 
 OBJS =	$(SRCS:.c=.o)
 OBJSL = $(SRCSL:.c=.o)

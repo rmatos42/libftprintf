@@ -83,6 +83,6 @@ t_list				*ft_lstnew(void const *content, size_t content_size);
 void				ft_lstadd(t_list **alst, t_list *new);
 void				ft_lstiter(t_list *lst, void (*f)(t_list *elem));
 int					get_count(const char *str, char c);
-char 				*ft_itoa_base(int nb, int base, int IS_UP);
+char				*ft_itoa_base(uintmax_t value, int base, int is_upper);
 
 #endif
